@@ -1,0 +1,8 @@
+#calendar, #calendar + div {
+  text-align: center;
+}
+
+#calendar .wrap .month {
+  display: inline-block;
+  float: none;
+}
