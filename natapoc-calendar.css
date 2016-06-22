@@ -1,0 +1,98 @@
+.ownerrez-widget iframe {
+  height: 268px !important;
+}
+
+div#navBar .btn {
+  padding: 3px 6px;
+}
+
+div#navBar .pager-or .showingSummary {
+  color: #fff;
+  padding-top: 0;
+  padding-right: 0;
+  line-height: 28px;
+  font-size: 12px;
+  color: #5A2F0F;
+}
+
+div#navBar .pager-or .showingSummary strong {
+  color: #fff;
+}
+
+div#navBar .pager-or .loadingMessage,
+div#navBar .pager-or .errorMessage {
+  position: absolute;
+  right: 0;
+  font-size: 10px;
+}
+
+div#calendarArea .container-or {
+  border-color: transparent;
+  font-size: 8px;
+  min-height: 230px;
+}
+
+div#calendarArea,
+div#calendarArea .dayNames {
+  background-color: transparent;
+  color: #fff;
+}
+
+div#calendarArea .dayRows {
+  border: 0;
+}
+
+div#calendarArea .dayRows .dayRow .dayCells tr.numbers td {
+  border-color: #5A2F0F;
+  border: 0;
+  background-color: #ac7562;
+}
+
+div#calendarArea .dayRows .dayRow .dayCells tr td {
+  background-color: #7F341C;
+  border-color: #5A2F0F;
+}
+
+div#calendarArea .dayRows .dayRow .dayCells tr td.today {
+  background-color: #ffd74b;
+}
+
+div#calendarArea .dayRows .dayRow .dayBookings td {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+div#calendarArea .dayRows .dayRow .dayBookings td.filled a {
+  background-color: #C30707;
+}
+
+div#calendarArea .dayRows .dayRow .dayBookings td.filled a {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+div#calendarArea .dayRows .dayRow .dayCells tr.numbers td.today,
+div#calendarArea .dayRows .dayRow .dayCells tr.numbers td.holiday{
+  background-color: #ac7562;
+}
+
+div#calendarArea .dayRows .dayRow .dayCells tr.numbers td.nextMonth,
+div#calendarArea .dayRows .dayRow .dayCells tr.numbers td.lastMonth {
+  color: #444;
+  background-color: #ac7562;
+  opacity: 0.5;
+}
+
+div#calendarArea .dayRows .dayRow .dayCells tr td.holiday {
+  background-color: #7F341C;
+}
+
+div#calendarArea .dayRows .dayRow .dayCells tr.numbers td.holiday-tooltip,
+div#calendarArea .dayRows .dayRow .dayCells tr.numbers td.holiday-tooltip:hover {
+  text-decoration: none;
+}
+
+.holiday-text {
+  display: none;
+}
