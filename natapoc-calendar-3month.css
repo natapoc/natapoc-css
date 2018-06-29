@@ -8,8 +8,8 @@ body > div:first-of-type {
 }
 
 [data-role="month-navigator"] {
-  width: 50%;
-  min-width: 100%;
+  width: 50% !important;
+  min-width: 100px;
   margin: 20px auto;
 }
 
