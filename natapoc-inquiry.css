@@ -7,5 +7,5 @@
 }
 
 .size-holder {
-  display: none;
+  display: none !important;
 }
